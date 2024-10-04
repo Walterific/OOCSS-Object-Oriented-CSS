@@ -1,0 +1,109 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Structure - Layout and positioning */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+.header, .footer {
+    padding: 20px;
+    text-align: center;
+}
+  
+.header__title {
+    font-size: 2rem;
+}
+  
+.profile-section {
+    background: #1C003B;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.profile-card {
+    border: 1px solid #220152;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    width: 450px;
+}
+  
+.profile-card__image {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    position: relative;
+}
+  
+.profile-card__name {
+    position: relative;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+  
+.profile-card__course {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 5px 35px;
+    font-size: 15px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+.card__button {
+    margin-left: 10px;
+}
+
+.card__button--primary {
+    background: #1C003B;
+    color: #fff;
+}
+  
+/* Footer Layout */
+.footer__text {
+    font-size: 0.875rem;
+}
+  
+/* Skin - Visual design, colors, fonts, etc. */
+.header {
+    background-color: #1C003B;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7);
+}
+  
+.footer {
+    background-color: #1C003B;
+    color: white;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.7);
+}
+  
+.profile-card {
+    background-color: #15002E;
+}
+  
+.profile-card__name {
+    color: #ffffff;
+}
+  
+.profile-card__course {
+    color: #ffffff;
+}
+  
